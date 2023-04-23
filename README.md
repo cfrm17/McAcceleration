@@ -134,7 +134,7 @@ where
 
 where in turn   is the default time of name   in the  -th simulation path.
 
-However, given the nature of the Monte Carlo simulation used for the pricing of credit derivatives (see https://finpricing.com/lib/EqCallable.html), a more efficient implementation of the constraints (12) can be obtained if we instead define the default probability   as
+However, given the nature of the Monte Carlo simulation used for the pricing of credit derivatives, a more efficient implementation of the constraints (12) can be obtained if we instead define the default probability   as
 
  
 
@@ -149,4 +149,7 @@ where   is the “dual” of  , that is
 Running the simulation allows us to track  , from which we can compute the partition function  , and thus to determine those path weights which reproduce the input single-name default probabilities.
 
 
+Reference:
+
+https://finpricing.com/product.html
 
